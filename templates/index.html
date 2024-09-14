@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchToon</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1 class="app-name">SketchToon</h1>
+    </header>
+    <main>
+        <div class="hero-section">
+            <h2 class="headline">Make cartoon sketch of your photos</h2>
+            <a href="{{ url_for('upload_file') }}" class="upload-button">Upload Photo</a>            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
